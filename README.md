@@ -1,8 +1,8 @@
-# Group TEAM_NUMBER
-Group Name: TEAM_NAME
+# Group 50
+Group Name: Group 50
 
 [MVP Link](http://cs196.cs.illinois.edu)
 
-Team Members: STUDENTS_NETIDS
+Team Members: Yash (ytelang2), Bryant (whsiung3), Robert (robertm8), Pedram (---), Victor (wenqiyu3)
 
-Project Manager: PM_NETID
+Project Manager: Tanishq (tanishq3)
