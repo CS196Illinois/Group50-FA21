@@ -3,6 +3,6 @@ Group Name: Group 50
 
 [MVP Link](http://cs196.cs.illinois.edu)
 
-Team Members: Yash (ytelang2), Bryant (whsiung3), Robert (robertm8), Pedram (---), Victor (wenqiyu3)
+Team Members: ytelang2, whsiung3, robertm8, Pedram, wenqiyu3
 
-Project Manager: Tanishq (tanishq3)
+Project Manager: tanishq3
