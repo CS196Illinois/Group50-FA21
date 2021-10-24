@@ -1,18 +1,30 @@
-'use strict'
+var settingsMenu = document.querySelector(".settings-menu");
+var darkBtn = document.getElementById("dark-btn");
 
-const switcher = document.querySelector('.btn');
+function settingsMenuToggle(){
+    settingsMenu.classList.toggle("settings-menu-height");
+}
 
-switcher.addEventListener('click', function() {
-    document.body.classList.toggle('dark-theme')
+darkBtn.onclick = function(){
+    darkBtn.classList.toggle("dark-btn-on");
+    document.body.classList.toggle("dark-theme");
 
-    var className = document.body.className;
-    if(className == "light-theme") {
-        this.textContent = "Dark";
+    if(localStorage.getItem("theme") == "light"){
+        localStorage.setItem("theme", "dark");
     }
-    else {
-        this.textContent = "Light";
+    else{
+        localStorage.setItem("theme", "light");
     }
+}
 
-    console.log('current class name: ' + className);
-
-});
+if(localStorage.getItem("theme") == "light"){
+    darkBtn.classList.remove("dark-btn-on");
+    document.body.classList.remove("dark-theme");
+}
+else if(localStorage.getItem("theme") == "dark"){
+    darkBtn.classList.add("dark-btn-on");
+    document.body.classList.add("dark-theme");
+}
+else{
+    localStorage.setItem("theme", "light");
+}
