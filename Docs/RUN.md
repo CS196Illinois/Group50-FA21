@@ -1,6 +1,7 @@
 # Instructions for running project...
 
 To test website:
-1. Go to extensions in VSCode
-2. Insall extension "open in browser" by TechER
-3. Right click index.html in Explorer and click "open in default browser".
+1. Change directory to foodie (cd foodie)
+2. Install requirements (pip install -r requirements.txt)
+3. Run the app (python manage.py runserver)
+4. View the app at http://127.0.0.1:8000/

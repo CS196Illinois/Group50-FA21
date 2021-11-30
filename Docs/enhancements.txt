@@ -1,0 +1,6 @@
+1. 404 when trying to cancel edit profile
+2. room description is not shown
+3. change layout and styling
+4. add image/video functionality
+5. add followers/following functionality
+6. add recommendation functionality/search with description of rooms (if time)
