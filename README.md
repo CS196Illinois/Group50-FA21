@@ -6,3 +6,5 @@ Group Name: Group 50
 Team Members: ytelang2, whsiung3, wenqiyu3
 
 Project Manager: tanishq3
+
+-> Project folder contains old files, current and updated project is in Django-Project/foodie.
