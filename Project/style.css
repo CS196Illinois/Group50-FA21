@@ -30,7 +30,7 @@ body{
 
 nav{
   display: flex;
-  align-items: center;
+  align-items: left;
   justify-content: space-between;
   background: var(--nav-color);
   padding: 5 px 5%;
